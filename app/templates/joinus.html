@@ -3,8 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Sebratec - Join Us</title>
+    <style>
+        form {
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        input, textarea {
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
-    Hello World!!!
+    <form>
+        <div>
+            <input type="text" placeholder="Name" name="name"><br>
+            <input type="text" placeholder="Born" name="born"><br>
+            <input type="text" placeholder="Nationality" name="nationality"><br>
+            <input type="text" placeholder="Email" name="email"><br>
+            <input type="text" placeholder="Phone" name="phone"><br>
+        </div>
+        <div>
+            <textarea name="description" cols="50" rows="10" placeholder="Description about who are you and your professional qualities."></textarea><br>
+            <textarea name="skills" cols="50" rows="10" placeholder="What are your key skills?"></textarea><br>
+        </div>
+        <div>
+            <textarea name="experience" cols="50" rows="10" placeholder="Work Experience"></textarea><br>
+        </div>
+        <div style="border: 1px solid black;">
+            <label>C / C++</label>
+            <input type="radio" name="ccplusplus" value="Basic"> Basic
+            <input type="radio" name="ccplusplus" value="Intermediate"> Intermediate
+            <input type="radio" name="ccplusplus" value="Advanced"> Advanced
+
+            <br>
+            <label>Java</label>
+            <input type="radio" name="ccplusplus" value="Basic"> Basic
+            <input type="radio" name="ccplusplus" value="Intermediate"> Intermediate
+            <input type="radio" name="ccplusplus" value="Advanced"> Advanced
+
+            <br>
+            <label>Python</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <br>
+            <label>Matlab / Simulink</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <br>
+            <label>MS Office</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <br>
+            <label>AUTOSAR</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <br>
+            <label>MS Project</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <br>
+            <label>MS Visio</label>
+            <select>
+                <option value="None">--</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+
 </body>
 </html>
